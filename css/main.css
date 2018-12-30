@@ -41,17 +41,17 @@ body {
     -webkit-font-smoothing: antialiased;
     color: #2d3038;
 }
-
- h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: #000000;
-}
-
-h1, h2, h3, {
+ 
+ h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #00FF00;
+}
+
+h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000000;
 }
 
 ul {
