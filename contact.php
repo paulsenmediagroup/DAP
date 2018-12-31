@@ -3,9 +3,6 @@
  *  CONFIGURE EVERYTHING HERE
  */
 
-	    <Location "/">
-  AllowMethods GET POST OPTIONS
-</Location>
 
 // an email address that will be in the From field of the email.
 $from = 'Demo contact form <demo@domain.com>';
