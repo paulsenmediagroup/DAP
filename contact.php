@@ -3,23 +3,6 @@
  *  CONFIGURE EVERYTHING HERE
  */
 
-# Include the Autoloader (see "Libraries" for install instructions)
-require 'vendor/autoload.php';
-use MailgunMailgun;
-# Instantiate the client.
-$mgClient = new Mailgun('81ac16813cc328f1853a78182a7f823c-49a2671e-de74e210');
-$domain = "mail.drakepaulsen.com ";
-# Make the call to the client.
-$result = $mgClient->sendMessage($domain, array(
-	'from'    => 'Excited User <mailgun@mail.drakepaulsen.com>',
-	'to'      => 'Baz <YOU@mail.drakepaulsen.com>',
-	'subject' => 'Hello',
-	'text'    => 'Testing some Mailgun awesomness!'
-));
-
-
-
-
 // an email address that will be in the From field of the email.
 $from = 'Demo contact form <demo@domain.com>';
 
